@@ -14,6 +14,8 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-angular-route'
   gem 'rails-assets-restangular'
   gem 'rails-assets-underscore'
+  gem 'rails-assets-lodash'
+  gem 'rails-assets-angularjs-dropdown-multiselect'
 end
 
 # I tried to put this in assets group

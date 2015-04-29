@@ -19,6 +19,8 @@
 //= require underscore
 //= require restangular/restangular
 //= require angular-rails-templates
+//= require angularjs-dropdown-multiselect
+//= require lodash
 
 //= require workspace_name/app
 //= require_tree ./workspace_name/templates
