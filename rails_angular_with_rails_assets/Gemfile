@@ -6,6 +6,22 @@ gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 
+gem 'bundler', '>= 1.8.4'
+gem 'angular-rails-templates'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-angular'
+  gem 'rails-assets-angular-route'
+  gem 'rails-assets-restangular'
+  gem 'rails-assets-underscore'
+end
+
+# I tried to put this in assets group
+# but it does not work for that reason
+# this libraries are here :(
+gem 'less-rails'
+gem 'railsstrap'
+
 gem 'devise', branch: 'lm-rails-4-2'
 gem 'haml', '~> 4.0.6'
 

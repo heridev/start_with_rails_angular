@@ -12,4 +12,18 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+
+//= require bootstrap/dist/js/bootstrap
+//= require angular
+//= require angular-route/angular-route
+//= require underscore
+//= require restangular/restangular
+//= require angular-rails-templates
+
+//= require workspace_name/app
+//= require_tree ./workspace_name/templates
+//= require_tree ./workspace_name/modules
+//= require_tree ./workspace_name/directives
+//= require_tree ./workspace_name/models
+//= require_tree ./workspace_name/services
+//= require_tree ./workspace_name/controllers
